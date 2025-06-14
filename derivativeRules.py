@@ -1,4 +1,5 @@
 from manim import *
+import numpy as np
 
 class Rule1ConstantDerivative(Scene):
     def construct(self):
@@ -73,8 +74,6 @@ class Rule2PowerRule(Scene):
         self.play(Transform(deriv, final))
         self.wait(2)
 
-
-from manim import *
 
 class Rule3SumRule(Scene):
     def construct(self):
@@ -159,9 +158,6 @@ class Rule3SumRule(Scene):
         self.play(FadeIn(dot), Create(tangent_line))
         self.wait(3)
 
-
-from manim import *
-import numpy as np
 
 class Rule3DifferenceRule(Scene):
     def construct(self):
